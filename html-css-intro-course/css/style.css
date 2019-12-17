@@ -1,0 +1,51 @@
+body {background-color: LightSteelBlue;
+      font-family: Optima, Arial, sans-serif;
+      font-size: medium;
+      text-align: justify;
+      text-justify: inter-word;
+}
+#mainTitle {color: Dimgray;
+            text-align: center;
+            text-shadow: 2pt 2pt 2pt DarkRed;
+}
+.warning {text-align: center; 
+          color: Red;
+          font-weight: bold;
+}
+#warning {background-color: Gainsboro;
+          padding: 5pt;
+          border-radius: 5pt;
+}
+#text {font-weight: 500;
+}
+#mainList {color: DarkSlateGray;
+           float: left;
+}
+.mainList {font-variant: small-caps;
+           background-color: Gainsboro;
+           padding: 5pt;
+           border-radius: 5pt;
+}
+.list {background-color: Gainsboro;
+      color: CadetBlue;
+      padding: 10pt;
+      width: 145pt;
+      list-style-position: outside;
+      border-radius: 10pt;
+}
+a {text-decoration: none;
+}
+a:link {color: CadetBlue;
+}
+a:visited {color: LightSlateGray;  
+}
+a:hover {color: Red;
+         text-decoration: underline;
+         text-shadow: 1pt 1pt 1pt LightSlateGray
+}
+a:active {color: Yellow
+}
+#bonusText {font-weight:600;
+            font-style: italic;
+            clear:both;
+}
